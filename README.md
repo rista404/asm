@@ -1,4 +1,4 @@
-# Notes
+## Learning some assembly
 
 ```sh
 nasm -f macho64 hello_world.asm # outputs hello_world.o
@@ -7,6 +7,7 @@ nasm -f macho64 hello_world.asm # outputs hello_world.o
 ld -macosx_version_min 10.15.0 -lSystem -o hello_world hello_world.o # outputs hello_world
 ```
 
+Notes to myself:
 
 ```asm
 _main label starting point
