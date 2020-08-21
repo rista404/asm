@@ -1,2 +1,11 @@
+# object files
+
 *.o
+
+# executables
+
 hello_world
+jump
+loop
+alloc
+jump_conditional
