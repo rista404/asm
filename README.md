@@ -1,5 +1,12 @@
 # Notes
 
+```sh
+nasm -f macho64 hello_world.asm # outputs hello_world.o
+
+# check the macos version you're using
+ld -macosx_version_min 10.15.0 -lSystem -o hello_world hello_world.o # outputs hello_world
+```
+
 
 ```asm
 _main label starting point
